@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>git and github doskey shortcuts</title>
+  </head>
+  <body>
+    <h1>Git and github doskey shortcut</h1>
+    <pre>
+    @echo off
+    doskey gi = git init
+    doskey gs = git status
+    doskey gaa = git add .
+    doskey gc = git commit -m $*
+    doskey gcom = git checkout master
+    doskey gp = git push origin $*
+    doskey glp = git log --pretty=oneline
+    doskey gl = git log --oneline
+    doskey gb = git branch -a
+    doskey gbn = git branch $*
+    doskey gbd = git branch -D $*
+    doskey gco = git checkout $*
+    doskey gpl = git pull origin master
+    doskey gt = git tag $*
+    doskey gib = git init --bare
+    doskey grm = git remote show origin
+    doskey gm = git merge $*
+    doskey gst = git stash --include-untracked
+    doskey gstp = git stash pop
+    doskey gpd = git push --delete $*
+
+    cd "C:\Users\C.N.P\"
+
+
+  </pre
+    >
+  </body>
+</html>
